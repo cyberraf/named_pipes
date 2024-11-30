@@ -12,8 +12,9 @@
 
 # ToCompile: 
 
-gcc -Wall cf_named_pipes.c -o cf_named_pipes
+gcc -Wall named_pipes.c -o named_pipes
+
 
 # To Execute: 
 
-./cf_named_pipes
+./named_pipes
