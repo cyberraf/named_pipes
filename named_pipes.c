@@ -1,26 +1,3 @@
-/***
- Team: Rafik Tarbari, Christos Haramis
- Date: February 23, 2023
- Class: CSC-4210 Spring 2023
-
- Description:
-	This program uses named pipes in which one process sends a
-        string message to a second process, and the second process reverses
-        the case of each character in the message and sends it back to the first
-        process. For example, if the first process sends the message Hi There,
-        the second process will return hI tHERE. This will require using two
-        pipes, one for sending the original message from the first to the second
-        process and the other for sending the modified message from the second
-        to the first process. You can write this program using either UNIX or
-        Windows pipes
-
- To Compile: gcc -Wall cf_named_pipes.c -o cf_named_pipes
-
- To Execute: ./cf_named_pipes
-
-***/
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -29,7 +6,9 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 
+
 #define BUFFER_SIZE 100
+
 
 int main()
 {
