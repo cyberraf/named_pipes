@@ -20,3 +20,5 @@ gcc -Wall named_pipes.c -o named_pipes
 # To Execute: 
 
 ./named_pipes
+
+![alt text] (https://github.com/cyberraf/named_pipes/blob/main/Execution.png)
