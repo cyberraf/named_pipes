@@ -10,7 +10,7 @@
 	modified message from the second to the first process. You can write this program using
 	either UNIX or Windows pipes.
 
-# ToCompile: 
+# To Compile: 
 
 gcc -Wall named_pipes.c -o named_pipes
 
