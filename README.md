@@ -21,4 +21,4 @@ gcc -Wall named_pipes.c -o named_pipes
 
 ./named_pipes
 
-![alt text](https://github.com/cyberraf/named_pipes/blob/main/Execution.png)
+![alt text](https://github.com/cyberraf/named_pipes/blob/main/execution.png)
