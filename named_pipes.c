@@ -31,7 +31,7 @@ int main()
     // Check if the fork failed
     if (pid == -1) {
         fprintf(stderr, "Fork failed");
-        return 1; // Exit the program with an error code
+        return 1; // Exit the program with an error named_pipesnamed_pipesnamed_pipes
     }
 
     if (pid == 0) {
@@ -80,7 +80,7 @@ int main()
         fd1 = open(myfifo1, O_WRONLY);
 
         // Send a message to the child process through the first pipe
-        write(fd1, "Hi There", strlen("My Name is Cyberraf") + 1);
+        write(fd1, "My Name is Cyberraf", strlen("My Name is Cyberraf") + 1);
 
         // Close the first pipe after writing the message
         close(fd1);
