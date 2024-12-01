@@ -7,7 +7,7 @@
 #include <sys/stat.h>
 
 
-#define BUFFER_SIZE 100 // Define the size of the buffer used for message passing
+#define BUFFER_SIZE 240 // Define the size of the buffer used for message passing
 
 
 int main()
